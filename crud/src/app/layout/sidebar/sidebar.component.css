@@ -1,0 +1,39 @@
+.sidebar {
+    background-color: #DA1F28;
+    /* border-bottom: 1px solid white; */
+}
+
+.sidebar h4 {
+    color: #ccc;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    line-height: 55px;
+    text-decoration: none;
+    /* padding-left: 40px; */
+    box-sizing: border-box;
+    transition: 0.5s;
+    border-bottom: 1px solid #c54147;
+    /* transition-property: background; */
+}
+
+.active,
+.sidebar a:hover {
+    /* background: #19B3D3; */
+    border-left: 5px solid yellow;
+    border-right: 5px solid yellow;
+}
+
+.sidebar a.active {
+    border-bottom: 3px solid #338ecf;
+    background: #eee
+}
+
+.sidebar i {
+    padding-right: 10px;
+}
