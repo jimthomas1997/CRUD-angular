@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
+import { Product } from './product';
+import { Observable } from 'rxjs/internal/Observable';
 
 @Injectable({
   providedIn: 'root'
@@ -9,33 +11,33 @@ export class ProductsService {
   constructor(private httpClient: HttpClient) { }
 
 
-  createProduct(productbody){
+  createProduct(productbody): Observable<Product>{
     const url = 'http://localhost:3000/products';
-    return this.httpClient.post(url, productbody);
+    return this.httpClient.post<Product>(url, productbody);
   }
 
-  viewProduct(productId){
+  viewProduct(productId): Observable<Product>{
     const url = 'http://localhost:3000/products/' + productId;
-    return this.httpClient.get(url);
+    return this.httpClient.get<Product>(url);
   }
 
-  updateProduct(productId, productbody){
+  updateProduct(productId, productbody): Observable<Product>{
     const url = 'http://localhost:3000/products/' + productId;
-    return this.httpClient.put(url, productbody);
+    return this.httpClient.put<Product>(url, productbody);
   }
 
-  deleteProduct(productId){
+  deleteProduct(productId): Observable<Product>{
     const url = 'http://localhost:3000/products/' + productId;
-    return this.httpClient.delete(url);
+    return this.httpClient.delete<Product>(url);
   }
 
-  searchCategoryProducts(categoryId){
+  searchCategoryProducts(categoryId): Observable<Product>{
     const url = 'http://localhost:3000/products/' + categoryId;
-    return this.httpClient.get(url);
+    return this.httpClient.get<Product>(url);
   }
 
-  searchDateProducts(dateParam){
+  searchDateProducts(dateParam): Observable<Product>{
     const url = 'http://localhost:3000/products/date=' + dateParam;
-    return this.httpClient.get(url);
+    return this.httpClient.get<Product>(url);
   }
 }
