@@ -1,4 +1,7 @@
+import { Category } from './../category';
+import { ProductsService } from './../../products/products.service';
 import { Component, OnInit } from '@angular/core';
+
 
 @Component({
   selector: 'app-sidebar',
@@ -6,10 +9,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent implements OnInit {
-
-  constructor() { }
+  categoryList: Category;
+  constructor(private productsService: ProductsService) { }
 
   ngOnInit(): void {
+    this.productsService.getCategories().subscribe(data => {
+      this.categoryList = data;
+    });
   }
 
 }

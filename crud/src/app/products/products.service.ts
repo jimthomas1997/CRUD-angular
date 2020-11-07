@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import { Product } from './product';
 import { Observable } from 'rxjs/internal/Observable';
+import {Category} from '../layout/category';
 
 @Injectable({
   providedIn: 'root'
@@ -10,6 +11,15 @@ export class ProductsService {
 
   constructor(private httpClient: HttpClient) { }
 
+  getAllProducts(): Observable<Product>{
+    const url = 'http://localhost:3000/products';
+    return this.httpClient.get<Product>(url);
+  }
+
+  getCategories(): Observable<Category>{
+    const url = 'http://localhost:3000/categories';
+    return this.httpClient.get<Category>(url);
+  }
 
   createProduct(productbody): Observable<Product>{
     const url = 'http://localhost:3000/products';

@@ -1,9 +1,16 @@
 {
-    "posts": [
-        { "id": 1, "title": "json-server", "author": "typicode" }
+    "products": [
+        { "id": 1, "catgoryId": 1, "productName": "shirt", "description": "good product", "rating": 5 },
+        { "id": 2, "catgoryId": 2, "productName": "pant", "description": "fine product", "rating": 4.5 },
+        { "id": 3, "catgoryId": 3, "productName": "Tshirt", "description": "average product", "rating": 4 }
     ],
     "comments": [
         { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "categories": [
+        { "id": 1, "categoryName": "Polo Tshirts" },
+        { "id": 2, "categoryName": "Tshirts" },
+        { "id": 3, "categoryName": "Pants" }
     ],
     "profile": { "name": "typicode" }
 }
