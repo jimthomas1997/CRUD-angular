@@ -1,8 +1,11 @@
 <div class="sidebar">
-    <a *ngFor="let cat of categoryList">{{ cat.categoryName }}</a>
-    <!-- <a [routerLink]="['\mainlayout']"><i class="fa fa-book"></i><span>Notepad</span></a> -->
-    <!-- <a href="#"><i class="fas fa-table"></i><span>Tables</span></a>
+    <a href="products">All Products</a>
+    <div *ngFor="let cat of categoryList">
+
+        <a href="products/category/{{cat.id}}">{{ cat.categoryName }}</a>
+        <!-- <a [routerLink]="['\mainlayout']"><i class="fa fa-book"></i><span>Notepad</span></a> -->
+        <!-- <a href="#"><i class="fas fa-table"></i><span>Tables</span></a>
   <a href="#"><i class="fas fa-th"></i><span>Forms</span></a>
   <a href="#"><i class="fas fa-info-circle"></i><span>About</span></a>
   <a href="#"><i class="fas fa-sliders-h"></i><span>Settings</span></a> -->
-</div>
+    </div>

@@ -23,7 +23,7 @@ const routes: Routes = [
   { path: 'view-products-by-date',
    component: ViewAllProductsByDateComponent
   },
-  { path: 'view-products-by-category',
+  { path: 'category/:id',
    component: ViewAllProductsByCategoryComponent
   },
   { path: 'update-products/:id',
