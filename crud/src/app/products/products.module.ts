@@ -1,3 +1,4 @@
+import {FormsModule, NgForm, ReactiveFormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -13,9 +14,11 @@ import { ViewAllProductsByCategoryComponent } from './view-all-products-by-categ
 
 
 @NgModule({
+  // tslint:disable-next-line: max-line-length
   declarations: [ProductsComponent, CreateProductsComponent, ViewProductsComponent, ViewAllProductsComponent, UpdateProductsComponent, DeleteProductsComponent, ViewAllProductsByDateComponent, ViewAllProductsByCategoryComponent],
   imports: [
     CommonModule,
+    FormsModule,
     ProductsRoutingModule
   ]
 })

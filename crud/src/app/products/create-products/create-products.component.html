@@ -1,1 +1,36 @@
-<p>create-products works!</p>
+<form (submit)="addNewProduct(addProductForm)" #addProductForm="ngForm">
+    <div class="form-row">
+        <div class="col-md-6">
+            <label for="validationDefault01">Product name</label>
+            <input type="text" class="form-control" id="validationDefault01" placeholder="First name" name="product_name" ngModel required>
+        </div>
+        <div class="col-md-6">
+            <label for="validationDefault02">Category ID</label>
+            <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" name="product_category" ngModel required>
+        </div>
+        <div class=" col-md-6 ">
+            <label for="validationDefault02 ">Description</label>
+            <input type="text " class="form-control " id="validationDefault02 " placeholder="Last name" name="product_description" ngModel required>
+        </div>
+        <div class="col-md-6 ">
+            <label for="validationDefault02 ">Rating</label>
+            <input type="number " class="form-control " id="validationDefault02 " placeholder="Last name" name="product_rating" ngModel required>
+        </div>
+        <div class="col-md-6 ">
+            <label for="validationDefault02 ">Product Colour</label>
+            <input type="text " class="form-control " id="validationDefault02 " placeholder="Last name" name="product_color" ngModel required>
+        </div>
+        <div class="col-md-6 ">
+            <label for="validationDefault02 ">Is Available</label>
+            <input type="text " class="form-control " id="validationDefault02 " placeholder="Last name" name="product_available" ngModel required>
+        </div>
+        <div class="col-md-6 ">
+            <label for="validationDefault02 ">Product Price</label>
+            <input type="text " class="form-control " id="validationDefault02 " placeholder="Last name" name="product_price" ngModel required>
+        </div>
+        <div class="col-md-6 ">
+            <label for="validationDefault02 ">Reviews</label>
+            <input type="text " class="form-control " id="validationDefault02 " placeholder="Last name" name="product_reviews" ngModel required>
+        </div>
+
+        <button class="btn btn-primary " type="submit ">Submit form</button>

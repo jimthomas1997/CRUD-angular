@@ -8,12 +8,12 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class UpdateProductsComponent implements OnInit {
 
-  productId=0;
-  constructor(private activatedRoute:ActivatedRoute) { }
+  productId = 0;
+  constructor(private activatedRoute: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.activatedRoute.params.subscribe(data=>{
-      this.productId=data.id
+    this.activatedRoute.params.subscribe(data => {
+      this.productId = data.id;
     });
   }
 

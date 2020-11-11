@@ -1,22 +1,111 @@
 {
-    "products": [
-        { "id": 1, "categoryId": 1, "productName": "shirt", "description": "good product", "rating": 5, "price": 100 },
-        { "id": 2, "categoryId": 2, "productName": "pant", "description": "fine product", "rating": 4.5, "price": 60 },
-        { "id": 3, "categoryId": 3, "productName": "Tshirt", "description": "average product", "rating": 4, "price": 70 },
-        { "id": 4, "categoryId": 1, "productName": "shirt", "description": "average product", "rating": 4, "price": 70 },
-        { "id": 5, "categoryId": 2, "productName": "pant", "description": "average product", "rating": 4, "price": 70 },
-        { "id": 6, "categoryId": 3, "productName": "Tshirt", "description": "average product", "rating": 4, "price": 70 },
-        { "id": 7, "categoryId": 1, "productName": "shirt", "description": "average product", "rating": 4, "price": 70 },
-        { "id": 8, "categoryId": 2, "productName": "pant", "description": "average product", "rating": 4, "price": 70 },
-        { "id": 9, "categoryId": 3, "productName": "Tshirt", "description": "average product", "rating": 4, "price": 70 }
-    ],
-    "comments": [
-        { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "categories": [
-        { "id": 1, "categoryName": "shirt" },
-        { "id": 2, "categoryName": "pant" },
-        { "id": 3, "categoryName": "Tshirt" }
-    ],
-    "profile": { "name": "typicode" }
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "productName": "shirt",
+      "description": "good product",
+      "rating": 5,
+      "price": 100
+    },
+    {
+      "id": 2,
+      "categoryId": 2,
+      "productName": "pant",
+      "description": "fine product",
+      "rating": 4.5,
+      "price": 60
+    },
+    {
+      "id": 3,
+      "categoryId": 3,
+      "productName": "Tshirt",
+      "description": "average product",
+      "rating": 4,
+      "price": 70
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "productName": "shirt",
+      "description": "average product",
+      "rating": 4,
+      "price": 70
+    },
+    {
+      "id": 5,
+      "categoryId": 2,
+      "productName": "pant",
+      "description": "average product",
+      "rating": 4,
+      "price": 70
+    },
+    {
+      "id": 6,
+      "categoryId": 3,
+      "productName": "Tshirt",
+      "description": "average product",
+      "rating": 4,
+      "price": 70
+    },
+    {
+      "id": 7,
+      "categoryId": 1,
+      "productName": "shirt",
+      "description": "average product",
+      "rating": 4,
+      "price": 70
+    },
+    {
+      "id": 8,
+      "categoryId": 2,
+      "productName": "pant",
+      "description": "average product",
+      "rating": 4,
+      "price": 70
+    },
+    {
+      "id": 9,
+      "categoryId": 3,
+      "productName": "Tshirt",
+      "description": "average product",
+      "rating": 4,
+      "price": 70
+    },
+    {
+      "id": 10,
+      "categoryId": "1",
+      "productName": "pantss",
+      "description": "niceeee",
+      "rating": "2",
+      "price": "343",
+      "productimg": " ",
+      "isAvailable": 1,
+      "color": "red"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "shirt"
+    },
+    {
+      "id": 2,
+      "categoryName": "pant"
+    },
+    {
+      "id": 3,
+      "categoryName": "Tshirt"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
