@@ -16,7 +16,7 @@ export class CreateProductsComponent implements OnInit {
   // tslint:disable-next-line: typedef
   addNewProduct(form){
     const newProduct = {
-      id: 10,
+      id: 11,
       categoryId: form.value.product_category,
       productName: form.value.product_name,
       description: form.value.product_description,
