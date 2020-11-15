@@ -1,12 +1,14 @@
 {
   "products": [
     {
-      "id": 1,
       "categoryId": 1,
       "productName": "shirt",
       "description": "good product",
       "rating": 5,
-      "price": 100
+      "price": 100,
+      "productimg": " ",
+      "isAvailable": 1,
+      "id": 1
     },
     {
       "id": 2,
@@ -81,17 +83,6 @@
       "product_available": 1,
       "product_price": "343",
       "id": 10
-    },
-    {
-      "categoryId": "2",
-      "productName": "pantzz",
-      "description": "guuud",
-      "rating": "2",
-      "price": "400",
-      "productimg": " ",
-      "isAvailable": 1,
-      "color": "red",
-      "id": 11
     }
   ],
   "comments": [
