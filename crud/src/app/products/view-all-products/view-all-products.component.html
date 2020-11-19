@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-12 col-md-6 col-lg-4" *ngFor="let product of productList">
         <div class="card">
-            <img class="card-img-top" src="https://dummyimage.com/600x400/55595c/fff" alt="Card image cap">
+            <img class="card-img-top" src="{{product.productimg}}" alt="Card image cap">
             <div class="card-body">
                 <h4 class="card-title"><a routerLink="view-products/{{product.id}}" title="View Product">{{product.productName}}</a></h4>
                 <p class="card-text">{{product.description}}</p>

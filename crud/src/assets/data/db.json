@@ -1,112 +1,119 @@
 {
-  "products": [
-    {
-      "categoryId": 1,
-      "productName": "shirt",
-      "description": "good product",
-      "rating": 5,
-      "price": 100,
-      "productimg": " ",
-      "isAvailable": 1,
-      "id": 1
-    },
-    {
-      "id": 2,
-      "categoryId": 2,
-      "productName": "pant",
-      "description": "fine product",
-      "rating": 4.5,
-      "price": 60
-    },
-    {
-      "id": 3,
-      "categoryId": 3,
-      "productName": "Tshirt",
-      "description": "average product",
-      "rating": 4,
-      "price": 70
-    },
-    {
-      "id": 4,
-      "categoryId": 1,
-      "productName": "shirt",
-      "description": "average product",
-      "rating": 4,
-      "price": 70
-    },
-    {
-      "product_category": 2,
-      "product_description": "average product",
-      "product_rating": 4,
-      "product_available": "1",
-      "product_price": 70,
-      "product_reviews": "fantastic",
-      "id": 5
-    },
-    {
-      "id": 6,
-      "categoryId": 3,
-      "productName": "Tshirt",
-      "description": "average product",
-      "rating": 4,
-      "price": 70
-    },
-    {
-      "id": 7,
-      "categoryId": 1,
-      "productName": "shirt",
-      "description": "average product",
-      "rating": 4,
-      "price": 70
-    },
-    {
-      "categoryId": 2,
-      "description": "average product",
-      "rating": 4,
-      "price": 70,
-      "productimg": " ",
-      "isAvailable": 1,
-      "id": 8
-    },
-    {
-      "product_category": 3,
-      "product_description": "average product",
-      "product_rating": 4,
-      "product_price": 70,
-      "id": 9
-    },
-    {
-      "product_category": "1",
-      "product_description": "niceeee",
-      "product_rating": "2",
-      "product_color": "red",
-      "product_available": 1,
-      "product_price": "343",
-      "id": 10
+    "products": [{
+            "categoryId": 1,
+            "productName": "shirt",
+            "description": "good product",
+            "rating": 5,
+            "price": 100,
+            "productimg": "http://localhost:4200/assets/images/8.jpg",
+            "isAvailable": 1,
+            "id": 1
+        },
+        {
+            "id": 2,
+            "categoryId": 2,
+            "productName": "pant",
+            "description": "fine product",
+            "productimg": "http://localhost:4200/assets/images/5.jpg",
+            "rating": 4.5,
+            "price": 60
+        },
+        {
+            "id": 3,
+            "categoryId": 3,
+            "productName": "Tshirt",
+            "description": "average product",
+            "productimg": "http://localhost:4200/assets/images/1.jpg",
+            "rating": 4,
+            "price": 70
+        },
+        {
+            "id": 4,
+            "categoryId": 1,
+            "productName": "shirt",
+            "description": "average product",
+            "productimg": "http://localhost:4200/assets/images/9.jpg",
+            "rating": 4,
+            "price": 70
+        },
+        {
+            "product_category": 2,
+            "productName": "pant",
+            "product_description": "average product",
+            "product_rating": 4,
+            "product_available": "1",
+            "product_price": 70,
+            "product_reviews": "fantastic",
+            "productimg": "http://localhost:4200/assets/images/7.jpg",
+            "id": 5
+        },
+        {
+            "id": 6,
+            "categoryId": 3,
+            "productName": "Tshirt",
+            "description": "average product",
+            "productimg": "http://localhost:4200/assets/images/2.jpg",
+            "rating": 4,
+            "price": 70
+        },
+        {
+            "id": 7,
+            "categoryId": 1,
+            "productName": "shirt",
+            "description": "average product",
+            "productimg": "http://localhost:4200/assets/images/10.jpg",
+            "rating": 4,
+            "price": 70
+        },
+        {
+            "categoryId": 2,
+            "description": "average product",
+            "rating": 4,
+            "price": 70,
+            "productName": "pant",
+            "productimg": "http://localhost:4200/assets/images/6.jpg",
+            "isAvailable": 1,
+            "id": 8
+        },
+        {
+            "product_category": 3,
+            "product_description": "average product",
+            "product_rating": 4,
+            "productName": "Tshirt",
+            "product_price": 70,
+            "productimg": "http://localhost:4200/assets/images/3.jpg",
+            "id": 9
+        },
+        {
+            "product_category": "1",
+            "product_description": "niceeee",
+            "product_rating": "2",
+            "productName": "shirt",
+            "product_color": "red",
+            "product_available": 1,
+            "product_price": "343",
+            "id": 10
+        }
+    ],
+    "comments": [{
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+    }],
+    "categories": [{
+            "id": 1,
+            "categoryName": "shirt"
+        },
+        {
+            "id": 2,
+            "categoryName": "pant"
+        },
+        {
+            "id": 3,
+            "categoryName": "Tshirt"
+        }
+    ],
+    "profile": {
+        "name": "typicode"
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "categories": [
-    {
-      "id": 1,
-      "categoryName": "shirt"
-    },
-    {
-      "id": 2,
-      "categoryName": "pant"
-    },
-    {
-      "id": 3,
-      "categoryName": "Tshirt"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
 }
