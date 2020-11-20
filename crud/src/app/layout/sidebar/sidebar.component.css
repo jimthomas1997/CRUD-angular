@@ -1,5 +1,5 @@
 .sidebar {
-    background-color: #DA1F28;
+    background-color: #0A6464;
     /* border-bottom: 1px solid white; */
 }
 
@@ -11,14 +11,16 @@
 
 .sidebar a {
     color: #fff;
+    text-align: center;
     display: block;
+    text-transform: uppercase;
     width: 100%;
     line-height: 55px;
     text-decoration: none;
     /* padding-left: 40px; */
     box-sizing: border-box;
     transition: 0.5s;
-    border-bottom: 1px solid #c54147;
+    border-bottom: 1px solid #098383;
     /* transition-property: background; */
 }
 

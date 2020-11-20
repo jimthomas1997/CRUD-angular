@@ -1,5 +1,6 @@
 .navbar {
     background-color: rgb(10, 100, 100);
+    border-bottom: 1px solid #098383;
 }
 
 .navbar-brand {
