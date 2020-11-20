@@ -1,6 +1,6 @@
 # Crud
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.4.
+A basic Crud operation using Angular. Made a shopping site where one can Create, Read, Update and Delete items.
 
 ## Development server
 
